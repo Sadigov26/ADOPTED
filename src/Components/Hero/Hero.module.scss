@@ -1,0 +1,31 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-image: url("../About/İmage/slider-1\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .containerHeader {
+        width: 80%;
+
+        .containerHeaderDesk {
+            display: flex;
+            width: 50%;
+            justify-content: center;
+            align-items: start;
+            flex-direction: column;
+            min-height: 100vh;
+            gap: 20px;
+
+            button {
+                padding: 12px;
+                border: none;
+                background-color: brown;
+                color: white;
+                border-radius: 10px;
+            }
+        }
+    }
+}

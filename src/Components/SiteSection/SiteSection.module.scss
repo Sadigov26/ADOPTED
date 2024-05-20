@@ -1,0 +1,81 @@
+.SiteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+    .SiteSectionContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      gap: 50px;
+  
+      .SiteDesk {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        .SiteDeskBottomText {
+          display: flex;
+          text-align: start;
+          flex-direction: column;
+          gap: 20px;
+  
+          button {
+            width: 40%;
+            padding: 12px;
+            border: none;
+            background-color: brown;
+            color: white;
+            border-radius: 10px;
+          }
+        }
+  
+        .SiteDeskImage {
+          img {
+            width: 100%;
+          }
+        }
+      }
+  
+      .SiteFaq {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+  
+        .faqItem {
+          margin-bottom: 10px;
+          cursor: pointer;
+  
+          h2 {
+            margin: 0;
+            padding: 10px;
+            width: 100%;
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(75, 74, 74);
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+          }
+  
+          p {
+            margin: 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-top: none;
+            font-size: 12px;
+            border-radius: 0 0 5px 5px;
+          }
+        }
+      }
+    }
+  }
+  

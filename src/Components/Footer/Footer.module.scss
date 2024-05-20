@@ -1,0 +1,96 @@
+footer {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #BC5148;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 174, 0);
+    }
+
+    strong {
+        color: rgb(78, 78, 78);
+    }
+
+    p {
+        color: rgb(187, 186, 186);
+    }
+
+    .FooterContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        gap: 100px;
+        flex-direction: column;
+    }
+
+    .FooterContainerTop {
+        display: flex;
+        justify-content: space-between;
+
+        .FooterAbout {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .FooterContact {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .FooterLink {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .FooterSocial {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .FooterSocialIcons {
+                display: flex;
+                gap: 15px;
+
+                .SocialIcons {
+                    border: 2px solid rgb(167, 165, 165);
+                  padding: 2px;
+                  font-size: 30px;
+                  color: rgb(255, 174, 0);
+                    background-color: transparent;
+                    border-radius: 40px;
+                }
+            }
+            
+        }
+
+    }
+    .FooterContainerBottom{
+        p{
+            display: flex;
+            gap: 5px;
+        }
+    }
+}
